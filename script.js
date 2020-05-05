@@ -145,7 +145,7 @@
 
 
 //мой код
-const arr = ['.word1','.word2','.word3','.word4','.word5','.word6','.word7','.word8','.word9','.word10','.word11','.word12','.word13'];
+const arr = ['.word1','.word2','.word3','.word4','.word5','.word6','.word7','.word8','.word9','.word10','.word11','.word12','.word13','.word14'];
 let i = 0;
 
 function addClass() {
@@ -175,4 +175,5 @@ setTimeout(addClass, 49000);
 setTimeout(addClass2, 54000);
 setTimeout(addClass, 59000);
 setTimeout(addClass, 64000);
+setTimeout(addClass, 69000);
 
