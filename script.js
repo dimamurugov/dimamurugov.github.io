@@ -162,18 +162,18 @@ function addClass2() {
   i++;
 }
 
-// setTimeout(addClass, 3000);
-// setTimeout(addClass, 9000);
-// setTimeout(addClass, 14000);
-// setTimeout(addClass, 19000);
-// setTimeout(addClass, 24000);
-// setTimeout(addClass, 29000);
-// setTimeout(addClass, 34000);
-// setTimeout(addClass, 39000);
-// setTimeout(addClass, 44000);
-// setTimeout(addClass, 49000);
-// setTimeout(addClass2, 54000);
-// setTimeout(addClass, 59000);
-// setTimeout(addClass, 64000);
-// setTimeout(addClass, 69000);
+setTimeout(addClass, 3000);
+setTimeout(addClass, 9000);
+setTimeout(addClass, 14000);
+setTimeout(addClass, 19000);
+setTimeout(addClass, 24000);
+setTimeout(addClass, 29000);
+setTimeout(addClass, 34000);
+setTimeout(addClass, 39000);
+setTimeout(addClass, 44000);
+setTimeout(addClass, 49000);
+setTimeout(addClass2, 54000);
+setTimeout(addClass, 59000);
+setTimeout(addClass, 64000);
+setTimeout(addClass, 69000);
 
