@@ -140,10 +140,9 @@ html, body {
 .nav_bg {
     background: url(/Users/n.s.ignatov/Downloads/territory/territory/img/contacts_bg.png) center top no-repeat;
     background-size: cover;
-    height: 480px;
+    height: 580px;
     overflow: hidden;
     padding: 0;
-    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.5);
     position: relative;
     display: flex;
     align-content: stretch;
@@ -220,15 +219,74 @@ nav{
  .menu li.pink a:hover {
  color: #ffffff;
  background-color: #00a651; }
+
 .page_name{
   margin-left: 80px;
   margin-top: 100px;
 }
+.page__background {
+    position: absolute;
+    width: 500px;
+    height: 600px;
+    background: url(../img/child/avaLogo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 130px;
+    left: 800px;
+}
+.territory_conteiner_buttons{
+    margin-left: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .green_small_btn{
+    border-radius: 44px;
+    background-color: #00a651;
+    color: #ffffff;
+    display: inline-block;
+    padding: 14px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 0 2px 12px 0 rgba(56, 72, 95, 0.49);
+    text-decoration: none;
+    vertical-align: middle;
+    line-height: 1.3;
+    border: 0;
+    cursor: pointer;
+    z-index: 100;
+    margin-right: 30px;
 
+}
+.page_title2 {
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    color: #000000;
+    margin: 0 0 25px 0;
+    width: 569px;
+}
+.white_small_btn{
+    border-radius: 44px;
+    display: inline-block;
+    padding: 14px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 0 2px 12px 0 rgba(56, 72, 95, 0.49);
+    text-decoration: none;
+    vertical-align: middle;
+    line-height: 1.3;
+    border: 0;
+    cursor: pointer;
+    z-index: 100;
+}
 h1{
-text-shadow: 0 3px 6px rgba(0, 0, 0, 0.44);
 color: #ffffff;
-font-family: "Gotham Pro";
 font-size: 41px;
 font-weight: 900;
 }

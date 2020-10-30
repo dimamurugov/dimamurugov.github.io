@@ -10,9 +10,73 @@
 	<!-- Адаптив -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 	<!-- Подключаем CSS -->
-	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="../css/style.css" />
 	<!-- Кодировка страницы -->
 	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+	<style>
+		html, body {
+  position: relative;
+  height: 100%;
+}
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color:#000;
+  margin: 0;
+  padding: 0;
+}
+.swiper-container {
+  width: 90%;
+	height: 400px;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+	background: #fff;
+	background-size: contain;
+	border-radius: 10px;
+	z-index: 1;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+#swiper-slide_1 {
+	background: url(../img/child/Дети/8d9910e9-9099-4d72-ba2a-4053874a6124.jpeg);
+}
+#swiper-slide_2 {
+	background: url(../img/child/Дети/bassein1.jpg);
+}
+#swiper-slide_3 {
+	background: url(../img/child/Дети/plan_pobega.jpg);
+}
+#swiper-slide_4 {
+	background: url(../img/child/Дети/pryatki.jpg);
+}
+#swiper-slide_5 {
+	background: url(../img/child/Дети/plan_pobega.jpg);
+}
+#swiper-slide_6 {
+	background: url(../img/child/Дети/bassein1.jpg);
+}
+.swiper-slide_title {
+	color: white;
+	font-size: 52px;
+	font-weight: 800;
+}
+	</style>
 </head>
 <!-- Отображаемое тело страницы -->
 
@@ -20,7 +84,7 @@
 	<div class="wrapper">
 		<header class="header__main">
 			<div class="header__main__conteiner">
-				<a class="header-top__logo" href="index.html" rel="home"><img src="img/logo.png" alt="Территория"></a>
+				<a class="header-top__logo" href="index.html" rel="home"><img src="../img/logo.png" alt="Территория"></a>
 				<div class="header-top__line"></div>
 				<div class="header-top__city"> <a>Рязань</a> </div>
 				<div class="header-top__line"></div>
@@ -29,7 +93,7 @@
 				</div>
 				<div class="header-top__callback">
 					<a href="#footer-callback-form" class="header-top__callback-link a-callback-form"><img
-							src="img/icons/phone.svg" width="18px" height="18px" alt="Обратный звонок"><span>Обратный
+							src="../img/icons/phone.svg" width="18px" height="18px" alt="Обратный звонок"><span>Обратный
 							звонок</span></a>
 				</div>
 				<div class="header-top__line"></div>
@@ -37,10 +101,10 @@
 
 				<div class="header-top__line"></div>
 				<div class="header-top__socials">
-					<a href="https://vk.com/lost_62" target="_blank" class="header-top__socials-link"><img src="img/icons/vk.svg"
+					<a href="https://vk.com/lost_62" target="_blank" class="header-top__socials-link"><img src="../img/icons/vk.svg"
 							width="30px" height="30px" alt="VK"></a>
 					<a href="https://www.instagram.com/lost_rzn/" target="_blank" class="header-top__socials-link"><img
-							src="img/icons/instagram.svg" width="30px" height="30px" alt="Instagram"></a>
+							src="../img/icons/instagram.svg" width="30px" height="30px" alt="Instagram"></a>
 				</div>
 				<div class="header-top__line"></div>
 				<div class="header-top__login">
@@ -49,6 +113,7 @@
 
 			</div>
 		</header>
+
 
 
 		<div class="content">
@@ -74,12 +139,49 @@
 						</div>
 					</div>
 					<div class="page_name">
-						<h1>Ракеты на планету развлечений<br>
+						<h1 class="page_title2">Ракеты на планету развлечений<br>
 							оптправляются здесь</h1>
+						<div class="territory_conteiner_buttons">
+							<a class="green_small_btn" href="#">3D тур</a>
+							<a class="white_small_btn" href="#">Галерея</a>
+							<div class="page__background"></div>
+						</div>	
 					</div>
 				</div>
 			</div>
 		</div>
+
+					<!-- Swiper -->
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide" id="swiper-slide_1"><p class="swiper-slide_title">Игры</p></div>
+			<div class="swiper-slide" id="swiper-slide_2"><p class="swiper-slide_title">Веселье</p></div>
+			<div class="swiper-slide" id="swiper-slide_3"><p class="swiper-slide_title">Класс</p></div>
+			<div class="swiper-slide" id="swiper-slide_4"><p class="swiper-slide_title">Радость</p></div>
+			<div class="swiper-slide" id="swiper-slide_5"><p class="swiper-slide_title">Супер</p></div>
+			<div class="swiper-slide" id="swiper-slide_6"><p class="swiper-slide_title">Радость</p></div>
+		</div>
+		<!-- Add Pagination -->
+		<div class="swiper-pagination"></div>
+	</div>
+
+	<!-- Swiper JS -->
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+	<!-- Initialize Swiper -->
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      freeMode: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+	</script>
+
+
 		<div class="page_content">
 			<div class="page_content_container">
 				<div class="page_contacts_info">
@@ -122,7 +224,7 @@
 				</div>
 				<div class="page_contacts_details">
 					<div class="page_contacts_details_image">
-						<img src="img/contact1.jpg">
+						<img src="../img/contact1.jpg">
 					</div>
 					<div class="page_contacts_details_description">
 						<div class="page_contacts_details_header">Как добраться?</div>
@@ -152,7 +254,7 @@
 		</div>
 		<footer class="footer__main">
 			<div class="container-small">
-				<a class="footer__logo" href="index.html" rel="home"><img src="img/logo.png" width="230px" height="31px"
+				<a class="footer__logo" href="index.html" rel="home"><img src="../img/logo.png" width="230px" height="31px"
 						alt="Территория"></a>
 				<div class="footer__navigation">
 					<div class="footer__navigation-item menu-left">
@@ -215,10 +317,10 @@
 				<div class="footer__navigation-centered">
 					<div class="footer__navigation-header centered">Мы в социальных сетях</div>
 					<div class="footer__socials">
-						<a href="https://vk.com/lost_62" target="_blank" class="footer__socials-link"><img src="img/icons/vk.svg"
+						<a href="https://vk.com/lost_62" target="_blank" class="footer__socials-link"><img src="../img/icons/vk.svg"
 								width="30px" height="30px" alt="VK"></a>
 						<a href="https://www.instagram.com/lost_rzn/" target="_blank" class="footer__socials-link"><img
-								src="img/icons/instagram.svg" width="30px" height="30px" alt="Instagram"></a>
+								src="../img/icons/instagram.svg" width="30px" height="30px" alt="Instagram"></a>
 					</div>
 
 
