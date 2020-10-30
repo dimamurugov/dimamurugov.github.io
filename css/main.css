@@ -377,14 +377,14 @@ margin: 0 auto;
 h4{
   text-align: center;
 color: #1ba831;
-font-family: "Gotham Pro";
+/* font-family: "Gotham Pro"; */
 font-size: 44px;
 font-weight: 900;
 margin-bottom: 20px;
 }
 .about_territory p{
   color: #000000;
-  font-family: "Gotham Pro";
+  /* font-family: "Gotham Pro"; */
   font-size: 22px;
   font-weight: 900;
   line-height: 26px;
@@ -461,7 +461,7 @@ margin-bottom: 20px;
 }
 .choose_game_container_block_single_header{
 color: #1ba831;
-font-family: "Gotham Pro";
+/* font-family: "Gotham Pro"; */
 font-size: 34px;
 font-weight: 900;
 padding: 5px;

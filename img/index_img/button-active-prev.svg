@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="61px" height="61px" viewBox="0 0 61 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>Buttons / Arrow Bttn / Disabled</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="22.5" cy="22.5" r="22.5"></circle>
+        <filter x="-28.9%" y="-24.4%" width="157.8%" height="157.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.271119523   0 0 0 0 0.33716414   0 0 0 0 0.437659439  0 0 0 0.28331635 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="главная-страница" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Главная-страница-Desktop-" transform="translate(-27.000000, -6054.000000)" fill-rule="nonzero">
+            <g id="Нам-доверяют-" transform="translate(0.000000, 5841.000000)">
+                <g id="Button-/-Arrow-Bttn-/-Disabled" transform="translate(35.000000, 219.000000)">
+                    <g id="Oval">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" xlink:href="#path-1"></use>
+                    </g>
+                    <path d="M15.137317,23 L25,33.4939881 L15.137317,23 L25,12.5060119 L15.137317,23 Z M15.137317,23 L15,23.1461066 L15.137317,23 L15,22.8538934 L15.137317,23 Z" id="Combined-Shape" stroke="#04A653" stroke-width="2" stroke-linecap="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
