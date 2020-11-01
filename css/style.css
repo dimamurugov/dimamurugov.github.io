@@ -138,7 +138,7 @@ html, body {
 
 /*NAVBAR*/
 .nav_bg {
-    background: url(/Users/n.s.ignatov/Downloads/territory/territory/img/contacts_bg.png) center top no-repeat;
+    background: url() center top no-repeat;
     background-size: cover;
     height: 580px;
     overflow: hidden;
