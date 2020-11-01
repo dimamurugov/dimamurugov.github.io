@@ -362,6 +362,84 @@ font-weight: 900;
     background: url(/Users/n.s.ignatov/Downloads/territory/territory/img/icons/time.svg) center center no-repeat;
 }
 
+/* Прайс лист */
+
+.price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 120px;
+}
+.price__title {
+    font-size: 44px;
+    font-weight: 800;
+    margin: 130px 0 70px 0;
+}
+
+.price__container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.price__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 30px;
+    justify-content: space-between;
+}
+.price__item_theme_green {
+    background-color:  #05A831;
+}
+.price__item_title {
+    font-size: 20pt;
+    font-weight: 800;
+    margin-top: 30px;
+}
+
+.price__item_count {
+    font-size: 14pt;
+    font-weight: 700;
+    margin-top: 60px;
+}
+.price__item_count_number {
+    font-size: 16pt;
+    font-weight: 800;
+    margin-top: 30px;
+    color: #05A831;
+}
+.price__item_about {
+    font-size: 10pt;
+    font-weight: 400;
+    margin-top: 8px;
+    color: #05A831;
+    text-align: center;
+}
+.price__item_name {
+    position: relative;
+    font-size: 12pt;
+    font-weight: 700;
+    margin-top: 25px;
+    left: -17px;
+}
+.price__item_list {
+    margin-bottom: 80px;
+}
+.price__item_list_el {
+    margin-top: 8px;
+}
+.price__item_button {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 0;
+}
+.price__item_button_theme_green {
+    background-color: white;
+    color: black;
+}
+
 .page_contacts_details {
     width: 1088px;
     margin: 80px auto 0;
@@ -391,6 +469,9 @@ font-weight: 900;
 iframe{
   margin-top: 40px;
   margin-bottom: 40px;
+}
+.price__item_theme_green {
+    color: white;
 }
 
 /*--------------------*/
