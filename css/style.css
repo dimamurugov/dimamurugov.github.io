@@ -361,7 +361,21 @@ font-weight: 900;
     height: 24px;
     background: url(/Users/n.s.ignatov/Downloads/territory/territory/img/icons/time.svg) center center no-repeat;
 }
-
+.title-swiper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-swipe__title {
+    font-size: 28pt;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.title-swipe__about {
+    font-size: 18pt;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
 /* Прайс лист */
 
 .price {
