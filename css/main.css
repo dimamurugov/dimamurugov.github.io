@@ -259,16 +259,15 @@ font-weight: 900;
 /*--------------------*/
 /*main header*/
 .header_bg{
-background-image: url(../img/spaceman.svg);
-background-size: 800px 685px;
-background-repeat: no-repeat;
-position: absolute;
-top: 50px;
-right: 0;
-width: 800px;
-height: 700px;
-z-index: -100;
-
+    background-image: url(../img/spaceman.svg);
+    background-size: 800px 685px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 800px;
+    height: 700px;
+    z-index: -100;
 
 }
 .territory_conteiner {
@@ -280,9 +279,7 @@ z-index: -100;
     margin-bottom: 150px;
     padding-left: 50px;
 }
-.territory_conteiner_logo{
 
-}
 .territory_conteiner_logo img{
   margin-bottom: 50px;
 }
@@ -454,9 +451,7 @@ margin-bottom: 20px;
     border: 5px solid #ffffff;
     background-color: #ffffff;
 }
-.choose_game_container_block_single_img{
 
-}
 .choose_game_container_block_single_header{
 color: #1ba831;
 font-size: 34px;
