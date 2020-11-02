@@ -621,6 +621,7 @@ h2 {
 .news {
   display: flex;
   flex-direction: row;
+  padding: 25px;
 }
 .news__title_slider {
   text-align: center;
