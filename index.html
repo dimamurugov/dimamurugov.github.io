@@ -79,6 +79,26 @@
 			background: url(img/index_img/ship-1.jpg);
 			background-repeat: no-repeat;
 		}
+
+
+		.swiper-container2 {
+  		width: 60%;
+			height: 100%;
+			overflow: hidden;
+			margin-left: 20px;
+			margin-bottom: 20px;
+		}
+		.swiper-pagination2 {
+			text-align: center;
+		}
+		.swiper-wrapper {
+			
+		}
+		.swiper-slide2 {
+			height: 400px;
+			font-size: 22pt;
+			font-weight: 800;
+		}
   </style>
 
 </head>
@@ -315,69 +335,6 @@
 									<a class="green_big_btn" href="#">Подробнее</a>
 								</div>
 							</div>
-
-						
-							<!-- <div class="choose_game_container_block_single">
-								<div class="choose_game_container_block_single_img">
-									<img src="img/extra/6.jpg" alt="">
-								</div>
-								<div class="choose_game_container_block_single_header">
-									Квесты
-								</div>
-								<div class="choose_game_container_block_single_text">
-									Антуражные квест-комнаты
-									различной тематики
-								</div>
-								<div class="choose_game_container_block_single_btn">
-									<a class="green_big_btn" href="#">Подробнее</a>
-								</div>
-							</div>
-							<div class="choose_game_container_block_single">
-								<div class="choose_game_container_block_single_img">
-									<img src="img/extra/6.jpg" alt="">
-								</div>
-								<div class="choose_game_container_block_single_header">
-									Квесты
-								</div>
-								<div class="choose_game_container_block_single_text">
-									Антуражные квест-комнаты
-									различной тематики
-								</div>
-								<div class="choose_game_container_block_single_btn">
-									<a class="green_big_btn" href="#">Подробнее</a>
-								</div>
-							</div> -->
-							<!-- <div class="choose_game_container_block_single">
-								<div class="choose_game_container_block_single_img">
-									<img src="img/extra/6.jpg" alt="">
-								</div>
-								<div class="choose_game_container_block_single_header">
-									Квесты
-								</div>
-								<div class="choose_game_container_block_single_text">
-									Антуражные квест-комнаты
-									различной тематики
-								</div>
-								<div class="choose_game_container_block_single_btn">
-									<a class="green_big_btn" href="#">Подробнее</a>
-								</div>
-							</div>
-							<div class="choose_game_container_block_single">
-								<div class="choose_game_container_block_single_img">
-									<img src="img/extra/6.jpg" alt="">
-								</div>
-								<div class="choose_game_container_block_single_header">
-									Квесты
-								</div>
-								<div class="choose_game_container_block_single_text">
-									Антуражные квест-комнаты
-									различной тематики
-								</div>
-								<div class="choose_game_container_block_single_btn">
-									<a class="green_big_btn" href="#">Подробнее</a>
-								</div>
-							</div> -->
-
 						</div>
 					</div>
 
@@ -387,6 +344,48 @@
 
 	</div>
 	</div>
+
+
+<!-- Новости -->
+<div class="news">
+	
+		<div class="swiper-container2">
+			<p class="news__title_slider">Новости-акции</p>
+			<div class="swiper-wrapper">
+				<div class="swiper-slide swiper-slide2">Новость 1</div>
+				<div class="swiper-slide swiper-slide2">Новость 2</div>
+				<div class="swiper-slide swiper-slide2">Новость 3</div>
+				<div class="swiper-slide swiper-slide2">Новость 4</div>
+				<div class="swiper-slide swiper-slide2">Новость 5</div>
+				<div class="swiper-slide swiper-slide2">Новость 6</div>
+				<div class="swiper-slide swiper-slide2">Новость 7</div>
+				<div class="swiper-slide swiper-slide2">Новость 8</div>
+				<div class="swiper-slide swiper-slide2">Новость 9</div>
+				<div class="swiper-slide swiper-slide2">Новость 10</div>
+			</div>
+			<div class="swiper-pagination2"></div>
+		</div>
+	
+
+	<div class="news__list">
+		<p class="news__title_slider">Блог</p>
+		<div class="news__list_photo"></div>
+		<div class="news__list_photo"></div>
+		<a class="green_big_btn news__button" href="">Все статьи</a>
+	</div>
+	
+</div>
+
+<!-- Initialize Swiper -->
+<script>
+	var swiper = new Swiper('.swiper-container2', {
+		pagination: {
+			el: '.swiper-pagination2',
+		},
+	});
+</script>
+
+
 
 	<div class="page_contacts_info_bg">
 		<div class="page_contacts_info">

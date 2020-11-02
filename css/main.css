@@ -559,6 +559,37 @@ h2{
 
 /*--------------------*/
 
+
+/* Новости */
+.news {
+    display: flex;
+    flex-direction: row;
+}
+.news__title_slider {
+    text-align: center;
+    font-size: 22pt;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.news__list {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.news__list_photo {
+    border: 2px solid black;
+    margin-bottom: 20px; 
+    height: 190px;
+}
+.news__button {
+    width: 350px;
+    margin-left: 108px;
+    margin-right: 0;
+}
+
 /*FOOTER*/
 .footer__main {
     background-color: #00a651;
