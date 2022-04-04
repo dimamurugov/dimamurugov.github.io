@@ -1,0 +1,11 @@
+.messageContainer {
+    width: 400px;
+}
+
+.messageContent {
+    height: 200px;
+    border: 2px solid red;
+    overflow: hidden;
+    overflow-y: auto;
+    margin: 40px 0;
+}
