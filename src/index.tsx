@@ -7,14 +7,17 @@ import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 import * as serviceWorker from './serviceWorker';
 import { rootReducer } from './redux/rootReducer';
+import { HashRouter } from 'react-router-dom';
 
 const store = createStore(rootReducer);
 
 ReactDOM.render(
   <React.StrictMode>
-    <Provider store={store}>
-      <App />
-    </Provider>
+    <HashRouter>
+      <Provider store={store}>
+        <App />
+      </Provider>
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
